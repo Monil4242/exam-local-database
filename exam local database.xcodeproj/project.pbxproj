@@ -14,6 +14,9 @@
 		8C1CF77C29E67B3800CBDEAA /* exam_local_database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CF77A29E67B3800CBDEAA /* exam_local_database.xcdatamodeld */; };
 		8C1CF77E29E67B3900CBDEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1CF77D29E67B3900CBDEAA /* Assets.xcassets */; };
 		8C1CF78129E67B3900CBDEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1CF77F29E67B3900CBDEAA /* LaunchScreen.storyboard */; };
+		8C1CF78929E67CF500CBDEAA /* fmdbHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CF78829E67CF500CBDEAA /* fmdbHelper.swift */; };
+		8C1CF78B29E6821500CBDEAA /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CF78A29E6821500CBDEAA /* ViewController2.swift */; };
+		8C1CF78D29E6828400CBDEAA /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CF78C29E6828400CBDEAA /* myTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		8C1CF77D29E67B3900CBDEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C1CF78029E67B3900CBDEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C1CF78229E67B3900CBDEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1CF78829E67CF500CBDEAA /* fmdbHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fmdbHelper.swift; sourceTree = "<group>"; };
+		8C1CF78A29E6821500CBDEAA /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		8C1CF78C29E6828400CBDEAA /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +67,10 @@
 				8C1CF77129E67B3700CBDEAA /* AppDelegate.swift */,
 				8C1CF77329E67B3700CBDEAA /* SceneDelegate.swift */,
 				8C1CF77529E67B3700CBDEAA /* ViewController.swift */,
+				8C1CF78829E67CF500CBDEAA /* fmdbHelper.swift */,
 				8C1CF77729E67B3700CBDEAA /* Main.storyboard */,
+				8C1CF78C29E6828400CBDEAA /* myTableViewCell.swift */,
+				8C1CF78A29E6821500CBDEAA /* ViewController2.swift */,
 				8C1CF77D29E67B3900CBDEAA /* Assets.xcassets */,
 				8C1CF77F29E67B3900CBDEAA /* LaunchScreen.storyboard */,
 				8C1CF78229E67B3900CBDEAA /* Info.plist */,
@@ -141,10 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C1CF78929E67CF500CBDEAA /* fmdbHelper.swift in Sources */,
+				8C1CF78D29E6828400CBDEAA /* myTableViewCell.swift in Sources */,
 				8C1CF77629E67B3700CBDEAA /* ViewController.swift in Sources */,
 				8C1CF77229E67B3700CBDEAA /* AppDelegate.swift in Sources */,
 				8C1CF77C29E67B3800CBDEAA /* exam_local_database.xcdatamodeld in Sources */,
 				8C1CF77429E67B3700CBDEAA /* SceneDelegate.swift in Sources */,
+				8C1CF78B29E6821500CBDEAA /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
