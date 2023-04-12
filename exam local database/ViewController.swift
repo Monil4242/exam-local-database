@@ -23,8 +23,8 @@ class ViewController: UIViewController {
             sqlite.addData(name: t2.text!, id: y)
         }
     }
-    
-    @IBAction func deleteButtonAction(_ sender: UIButton) {
+ 
+    @IBAction func deleteDataButtonAction(_ sender: UIButton) {
         if let x = t1.text , let y = Int(x){
             sqlite.deleteData(name: t2.text!, id: y)
         }
